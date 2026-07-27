@@ -5,12 +5,17 @@
 SeedNet treats a frozen neural weight matrix as a deterministic program:
 
 $$
-W_{n,k}=s_K\,h(\text{seed},\,nK+k),
+u_{n,k}=H(s,nK+k)\in[0,1),
+\qquad
+W_{n,k}=\sqrt{\frac{12}{K}}\left(u_{n,k}-\frac{1}{2}\right),
 \qquad
 Y=XW^\top.
 $$
 
-Here, $s_K$ is the initialization scale determined by the input width $K$.
+Here, \(s\) is the seed, \(0\le n<N\), and \(0\le k<K\). The v1 hash
+\(H\) maps the seed and row-major counter \(nK+k\) to a deterministic
+uniform value. Centering by \(1/2\) gives zero mean, and the factor
+\(\sqrt{12/K}\) gives nominal variance \(1/K\) (up to finite-grid effects).
 
 The full base matrix is not stored in the model state. A stateless counter hash
 regenerates each tile inside a Triton GEMM kernel. Trainable capacity is supplied
