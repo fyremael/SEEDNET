@@ -7,12 +7,17 @@ counter-hash rule. The matrix is regenerated tile by tile inside a Triton GEMM
 kernel, while a compact trainable correction supplies task-specific capacity.
 
 \[
-W_{n,k}=\sqrt{\frac{12}{K}}\left(
-  h(\text{seed},nK+k)-\frac{1}{2}
-\right),
+u_{n,k}=H(s,nK+k)\in[0,1),
 \qquad
-Y=XW^\top + \Delta Y.
+W_{n,k}=\sqrt{\frac{12}{K}}\left(u_{n,k}-\frac{1}{2}\right),
+\qquad
+Y=XW^\top+\Delta Y.
 \]
+
+Here, \(s\) is the seed, \(0\le n<N\), and \(0\le k<K\). The v1 hash
+\(H\) maps the seed and row-major counter \(nK+k\) to a deterministic
+uniform value. Centering and scaling produce a base weight with zero mean and
+nominal variance \(1/K\) up to finite-grid effects.
 
 <div class="grid cards" markdown>
 
