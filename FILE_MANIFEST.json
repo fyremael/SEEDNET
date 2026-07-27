@@ -20,8 +20,8 @@
     "sha256": "f6cd1ad48b4280375e6796a496f774a5b1f7a0df99e99737757051f523d7076f"
   },
   "README.md": {
-    "bytes": 4604,
-    "sha256": "21a574283e257d83f2f01d6de0dd3173c566f5a4181f60e23b4cabd5e3f7b227"
+    "bytes": 4651,
+    "sha256": "e8796545c5f04ca847c35d6ff2d98a4c8f24d1fa0b4fa0edb573fe1b8d427020"
   },
   "docs/api/functional.md": {
     "bytes": 211,
@@ -160,8 +160,8 @@
     "sha256": "cea6919e02e5c22827e88df1b05c5f2fe3f89ab388daa3939a59977bc28aa2a0"
   },
   "tests/test_readme_math.py": {
-    "bytes": 312,
-    "sha256": "2d28bcd1693a2e15d0f4da5b9e7756fb2ff1feea80c8a836f05425516f87b33a"
+    "bytes": 410,
+    "sha256": "b213e1b79e01cc4336da389489ed2a8cf433cee3d75c02e1f54252eb6993d387"
   },
   "tests/test_reference.py": {
     "bytes": 885,
