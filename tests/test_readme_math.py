@@ -1,11 +1,19 @@
 from pathlib import Path
 
 
-def test_readme_uses_github_math_delimiters():
+FORBIDDEN_MATH_FRAGMENTS = (
+    r"\[",
+    r"\]",
+    r"\operatorname",
+)
+
+
+def test_readme_uses_github_math_syntax():
     readme = Path(__file__).resolve().parents[1] / "README.md"
     text = readme.read_text(encoding="utf-8")
 
-    assert r"\[" not in text
-    assert r"\]" not in text
+    for fragment in FORBIDDEN_MATH_FRAGMENTS:
+        assert fragment not in text
+
     assert text.count("$$") >= 2
     assert text.count("$$") % 2 == 0
