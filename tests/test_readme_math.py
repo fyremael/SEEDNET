@@ -5,6 +5,8 @@ FORBIDDEN_MATH_FRAGMENTS = (
     r"\[",
     r"\]",
     r"\operatorname",
+    r"\(",
+    r"\)",
 )
 
 
