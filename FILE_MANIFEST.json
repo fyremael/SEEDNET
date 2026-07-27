@@ -1,0 +1,94 @@
+{
+  ".github/workflows/ci.yml": {
+    "bytes": 530,
+    "sha256": "3c570064abed09f7e82aaf2019b24a5ba428a6044789c39cd499bd576b80718d"
+  },
+  ".gitignore": {
+    "bytes": 264,
+    "sha256": "29cabe3dca95eb1a1e00dd29b12454bedbf3aba2aaa9cdd013e24c283e63bbb7"
+  },
+  "LICENSE": {
+    "bytes": 1077,
+    "sha256": "4f29b4af2e38bcd724a867470af07c1b078fba44e45fceb12d05760c28d2424a"
+  },
+  "MODEL_FORMAT.md": {
+    "bytes": 762,
+    "sha256": "f6cd1ad48b4280375e6796a496f774a5b1f7a0df99e99737757051f523d7076f"
+  },
+  "README.md": {
+    "bytes": 4418,
+    "sha256": "8934a42c32d2fc701fbe8aad6f26ab3fb01a458244d5afd47b60a3c18f418f82"
+  },
+  "examples/quickstart.py": {
+    "bytes": 526,
+    "sha256": "3a3394c00f4269d1afff75a53bacfaa7ff4d5a836135cb91b29c52b2e9e81514"
+  },
+  "kernels/README.md": {
+    "bytes": 262,
+    "sha256": "7d563811d72c41f744fb98fd8b58baadb6b1d1e8f6c9e87969ce8694c67aa2fd"
+  },
+  "kernels/fused_seed_gemm.cu": {
+    "bytes": 377,
+    "sha256": "7f684a2be4005b44a44fcb94a1d816213e4439a81cab30d627a72c7101c48060"
+  },
+  "kernels/fused_seed_gemm.py": {
+    "bytes": 3728,
+    "sha256": "f67b79700524ce2bb9cf078bf8360273298c23ee1b8b350548aa6c21f11d5fb1"
+  },
+  "notebooks/seednet_demo.ipynb": {
+    "bytes": 6349,
+    "sha256": "9f0e42f04fb8365e22cec45c475679dbc0093485e51c36481ed7fe3c40851b5a"
+  },
+  "pyproject.toml": {
+    "bytes": 767,
+    "sha256": "fd683ebc2bc2f26292839089f1e899eb6366caf0018b16eb2a47f4fee4b0267d"
+  },
+  "requirements-demo.txt": {
+    "bytes": 16,
+    "sha256": "336a14a13eaa7cedd368e519fe79c64fc72ca0839bb11c6bc5f27cc42e922e81"
+  },
+  "requirements.txt": {
+    "bytes": 51,
+    "sha256": "fd090b5f0a3de96f6af51ed5ff39407ae1db102202690a0fcbb610aa53d57a03"
+  },
+  "scripts/benchmark.py": {
+    "bytes": 1423,
+    "sha256": "e2eca8e845569ff79f5d1f73ea0ff9d920cfa18d9e655078df5df08d67e49d38"
+  },
+  "scripts/check_project.py": {
+    "bytes": 314,
+    "sha256": "edfe6d0174c4c67aa2347d67b16616d327db96f43d698a7bbb687cc58f25dd96"
+  },
+  "src/seednet/__init__.py": {
+    "bytes": 324,
+    "sha256": "47d8180e200080cc18e002918627befb8722c7626dad26e79b6b831d9a71da38"
+  },
+  "src/seednet/_triton.py": {
+    "bytes": 3728,
+    "sha256": "f67b79700524ce2bb9cf078bf8360273298c23ee1b8b350548aa6c21f11d5fb1"
+  },
+  "src/seednet/functional.py": {
+    "bytes": 1813,
+    "sha256": "27c588a544c15b0de7c72679840f127f9ff38f3e5fa811c9e29b3fa08bccaa99"
+  },
+  "src/seednet/layers.py": {
+    "bytes": 3297,
+    "sha256": "9c6203dcefdefaaceffabb8738185700df3806ab55f1d164e4c992649cef90a3"
+  },
+  "src/seednet/random.py": {
+    "bytes": 1438,
+    "sha256": "4f6ed41557a89b1047fe308c40befe3909cb31e8a9f235cfb3af322817308987"
+  },
+  "tests/test_layer.py": {
+    "bytes": 1391,
+    "sha256": "42d1a9ebff4d9ff467f0802a700f09ec71d44f3c7465ac98f9a7ea574f5aa87d"
+  },
+  "tests/test_reference.py": {
+    "bytes": 885,
+    "sha256": "818893da54dbdba437a5082e1e5db080997c7a69ecc3dcf55ee8ed306739250f"
+  },
+  "tests/test_triton.py": {
+    "bytes": 908,
+    "sha256": "ad8f9ba7663da93c1c98c428d6af6c6ad4de2315dc15b1df5104270b973cac65"
+  }
+}

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "seednet"
+version = "0.2.0"
+description = "Procedurally generated frozen neural weights with fused Triton GEMM and trainable low-rank corrections."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Grand Challenge Labs"}]
+dependencies = ["torch>=2.2"]
+
+[project.optional-dependencies]
+cuda = ["triton>=3.0; platform_system == 'Linux'"]
+demo = ["torchvision>=0.17", "tqdm>=4.66", "matplotlib>=3.8", "jupyter>=1.0"]
+dev = ["pytest>=8.0", "nbformat>=5.9"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
