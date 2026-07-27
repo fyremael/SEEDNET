@@ -1,0 +1,19 @@
+:root {
+  --md-primary-fg-color: #263238;
+  --md-primary-fg-color--light: #455a64;
+  --md-primary-fg-color--dark: #101719;
+}
+
+.md-typeset h1 {
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid.cards > ol > li {
+  border-radius: 0.45rem;
+}
+
+.md-typeset code {
+  font-variant-ligatures: none;
+}

@@ -41,3 +41,10 @@ def test_no_dense_base_parameter_is_stored():
     names = dict(layer.named_parameters())
     assert "weight" not in names
     assert sum(p.numel() for p in layer.parameters()) < 1024 * 2048
+
+
+def test_storage_report_rejects_nonpositive_element_size():
+    layer = SeedLinear(8, 10, seed=1, backend="reference")
+    import pytest
+    with pytest.raises(ValueError, match="element_bytes"):
+        layer.storage_report(element_bytes=0)

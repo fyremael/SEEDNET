@@ -1,5 +1,7 @@
 # SeedNet
 
+[Documentation](https://fyremael.github.io/SEEDNET/) · [Repository](https://github.com/fyremael/SEEDNET)
+
 SeedNet treats a frozen neural weight matrix as a deterministic program:
 
 \[
@@ -54,6 +56,13 @@ CPU-only validation:
 ```bash
 pip install -e ".[dev]"
 pytest
+```
+
+Documentation development:
+
+```bash
+pip install -e ".[docs]"
+mkdocs serve
 ```
 
 ## Quick start

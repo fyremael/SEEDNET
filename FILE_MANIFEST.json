@@ -3,6 +3,10 @@
     "bytes": 530,
     "sha256": "3c570064abed09f7e82aaf2019b24a5ba428a6044789c39cd499bd576b80718d"
   },
+  ".github/workflows/docs.yml": {
+    "bytes": 1386,
+    "sha256": "6161ed660b91a328600a32967483b36a42b6625184c5927ba4be8a71426a0914"
+  },
   ".gitignore": {
     "bytes": 264,
     "sha256": "29cabe3dca95eb1a1e00dd29b12454bedbf3aba2aaa9cdd013e24c283e63bbb7"
@@ -16,8 +20,76 @@
     "sha256": "f6cd1ad48b4280375e6796a496f774a5b1f7a0df99e99737757051f523d7076f"
   },
   "README.md": {
-    "bytes": 4418,
-    "sha256": "8934a42c32d2fc701fbe8aad6f26ab3fb01a458244d5afd47b60a3c18f418f82"
+    "bytes": 4604,
+    "sha256": "a01ba470cb52015241734a977a48ccd56ae77d43cba8d9b4d80ae242a19ef719"
+  },
+  "docs/api/functional.md": {
+    "bytes": 211,
+    "sha256": "82e6058f64043dbd17c2cacb8615e822196050356d3a9926e971351571bba382"
+  },
+  "docs/api/identifiers.md": {
+    "bytes": 120,
+    "sha256": "814fa94468afb176af6e27c244dfd2da6ead305bc9caf67428e3a034db720c8d"
+  },
+  "docs/api/index.md": {
+    "bytes": 629,
+    "sha256": "dd19b49aac92b91a001b289178b1668d88d609b5e6d147ffed2831a5d119c5b1"
+  },
+  "docs/api/seedlinear.md": {
+    "bytes": 171,
+    "sha256": "b54132929038a5eda52a28c4332628494a58060f984e072b13d3d49f895b30ae"
+  },
+  "docs/assets/javascripts/mathjax.js": {
+    "bytes": 328,
+    "sha256": "50efe1d3ee92092fb521a85c52c861f36fe87c9158fef732f409a99009af0031"
+  },
+  "docs/assets/stylesheets/extra.css": {
+    "bytes": 347,
+    "sha256": "85726dbd5b5b8e0454008ef0b98815eae094a53c6a9a7679e3ddae5d41b45f8a"
+  },
+  "docs/changelog.md": {
+    "bytes": 659,
+    "sha256": "8884689b9455201dffa8cb60a993a8f6e43ab109b285fef718ab239c524c4c95"
+  },
+  "docs/design/architecture.md": {
+    "bytes": 2869,
+    "sha256": "e534886fcfcd02c543532f70fdc0fc63095aecde384ed06262b74bced3ca280c"
+  },
+  "docs/design/limitations.md": {
+    "bytes": 2059,
+    "sha256": "bb9c1650ab2ef25a603b236c2865c5aa41d98a3d552bb9c2c344972677248552"
+  },
+  "docs/design/model-format.md": {
+    "bytes": 1547,
+    "sha256": "2aad58069ff676830e0ee53e5ec421043f2a79be4e52f8505f3c40f2f6eb1af4"
+  },
+  "docs/development.md": {
+    "bytes": 983,
+    "sha256": "fda64fbe28c502cbb714df3f5937567c96da966826b6a9e7385044f6963334cc"
+  },
+  "docs/index.md": {
+    "bytes": 2522,
+    "sha256": "d26a9284bd2e79276011375670278ed87b68229bde21b88717e8428096ada4e0"
+  },
+  "docs/motivation.md": {
+    "bytes": 3192,
+    "sha256": "23fa452c7c7d73f008b8bca3889df8b68281eb1e8858ac209d8ef79c2358a893"
+  },
+  "docs/usage/benchmarking.md": {
+    "bytes": 1739,
+    "sha256": "c0a2645755b3f0793949680a38dcf7f71e09fb0765b3436903e9b11392d09ffa"
+  },
+  "docs/usage/installation.md": {
+    "bytes": 1085,
+    "sha256": "e700ba41d453709e8b1fe65e00caaf0e507ef4c218fec154db2ae735f24c9747"
+  },
+  "docs/usage/quickstart.md": {
+    "bytes": 1570,
+    "sha256": "6c67951b9fc60a8238b9df10880ab470092a29b491ab1c82c67f783d323acc26"
+  },
+  "docs/usage/training.md": {
+    "bytes": 2269,
+    "sha256": "04fb24f66df9c1c0b4cdd809c005dff807deb58abb0988c841a8ffcf53dad2ee"
   },
   "examples/quickstart.py": {
     "bytes": 526,
@@ -35,13 +107,17 @@
     "bytes": 3728,
     "sha256": "f67b79700524ce2bb9cf078bf8360273298c23ee1b8b350548aa6c21f11d5fb1"
   },
+  "mkdocs.yml": {
+    "bytes": 2805,
+    "sha256": "1f2845d61f324cb4ef3dbdbdf9b78ffc6a09de18e12b98b9b61a5b9c8dcef7ec"
+  },
   "notebooks/seednet_demo.ipynb": {
     "bytes": 6349,
     "sha256": "9f0e42f04fb8365e22cec45c475679dbc0093485e51c36481ed7fe3c40851b5a"
   },
   "pyproject.toml": {
-    "bytes": 767,
-    "sha256": "fd683ebc2bc2f26292839089f1e899eb6366caf0018b16eb2a47f4fee4b0267d"
+    "bytes": 854,
+    "sha256": "2c7dc2086e53c3b5c045864ce3abaee8f7c2201603bd8aada4320cc3c134d784"
   },
   "requirements-demo.txt": {
     "bytes": 16,
@@ -68,20 +144,20 @@
     "sha256": "f67b79700524ce2bb9cf078bf8360273298c23ee1b8b350548aa6c21f11d5fb1"
   },
   "src/seednet/functional.py": {
-    "bytes": 1813,
-    "sha256": "27c588a544c15b0de7c72679840f127f9ff38f3e5fa811c9e29b3fa08bccaa99"
+    "bytes": 3679,
+    "sha256": "8f90039254937ed38443328105015ccd713d77b6578b82709f631932b482053b"
   },
   "src/seednet/layers.py": {
-    "bytes": 3297,
-    "sha256": "9c6203dcefdefaaceffabb8738185700df3806ab55f1d164e4c992649cef90a3"
+    "bytes": 5611,
+    "sha256": "51c89dbee6c632413fbb1b6eb4a273dcc9922201c0e4e1ae12b7c74074ed9a40"
   },
   "src/seednet/random.py": {
-    "bytes": 1438,
-    "sha256": "4f6ed41557a89b1047fe308c40befe3909cb31e8a9f235cfb3af322817308987"
+    "bytes": 2543,
+    "sha256": "3478b6a7f312c11c9a1e1bda3f5b256d6d0cb2d090b9f9a3df43299a0f5b62a3"
   },
   "tests/test_layer.py": {
-    "bytes": 1391,
-    "sha256": "42d1a9ebff4d9ff467f0802a700f09ec71d44f3c7465ac98f9a7ea574f5aa87d"
+    "bytes": 1635,
+    "sha256": "cea6919e02e5c22827e88df1b05c5f2fe3f89ab388daa3939a59977bc28aa2a0"
   },
   "tests/test_reference.py": {
     "bytes": 885,

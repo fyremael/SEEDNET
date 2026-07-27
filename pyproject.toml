@@ -16,6 +16,7 @@ dependencies = ["torch>=2.2"]
 cuda = ["triton>=3.0; platform_system == 'Linux'"]
 demo = ["torchvision>=0.17", "tqdm>=4.66", "matplotlib>=3.8", "jupyter>=1.0"]
 dev = ["pytest>=8.0", "nbformat>=5.9"]
+docs = ["mkdocs>=1.6,<2", "mkdocs-material>=9.6,<10", "mkdocstrings[python]>=0.29,<1"]
 
 [tool.setuptools]
 package-dir = {"" = "src"}
