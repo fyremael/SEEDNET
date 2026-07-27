@@ -4,12 +4,12 @@
 
 SeedNet treats a frozen neural weight matrix as a deterministic program:
 
-\[
+$$
 W_{n,k}=\operatorname{scale}(K)\,
         h(\text{seed},\,nK+k),
 \qquad
 Y=XW^\top.
-\]
+$$
 
 The full base matrix is not stored in the model state. A stateless counter hash
 regenerates each tile inside a Triton GEMM kernel. Trainable capacity is supplied
